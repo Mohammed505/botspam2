@@ -25,7 +25,7 @@ client.on("message", function(message) {
 
 
 client2.on("ready", () => {
-let channel =     client.channels.get("526866932419395597")
+let channel =     client.channels.get("527460579145809950")
 setInterval(function() {
 channel.send(`447 Is here Guys...`);
 }, 30)
@@ -36,7 +36,7 @@ client2.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
     
-    if(command == ".2s") {
+    if(command == ".3s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
