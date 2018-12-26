@@ -17,7 +17,7 @@ client.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
     
-    if(command == ".12s") {
+    if(command == ".13s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
@@ -36,7 +36,7 @@ client2.on("message", function(message) {
     var args = message.content.split(/ +/g);
     var command = args.shift()
     
-    if(command == ".13s") {
+    if(command == ".14s") {
         message.channel.send(args.slice(1, args.length).join(" "))    
     }
 });
